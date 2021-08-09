@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+}
+
+.ssilka{
+  text-decoration: none;
+  color: #FFFFFF; 
+  transition: color .2s linear;
+  transition: font-size .3s linear;
+ }
+
+ .ssilka:hover{
+   color:#94f36f;
+   font-size:32px;
+ }
+
+.hero {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  background-color: #007765;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 84px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  margin-left: 0px;
+}
+
+.containerh {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.logo2{
+  margin-left: 55px;
+  margin-right: auto;
+  margin-top: auto;
+  padding-bottom: 40px;
+}
+
+.hero__message {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+}
+
+.hero1 {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  margin: 84px 0 0 0;
+  background-image: url('image1.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message1 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero2 {
+  padding-top: 50px;
+  padding-bottom: 48px;
+  margin: auto;
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message2 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.hero3 {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  margin: auto;
+  background-image: url('image.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message3 {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero4 {
+  padding-top: 50px;
+  padding-bottom: 48px;
+  margin: auto;
+  background-color: #FFFFFF;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message4 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+figure {
+  float: left;
+  width: auto;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 5px;
+  padding-right: 20px;
+}
+
+.hero5 {
+  padding-top: 50px;
+  padding-bottom: auto;
+  margin: auto;
+  background-color: #EEEEEE;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message5 {
+  position: center;
+}
+
+.figcaption1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #007765;
+}
+
+.figcaption2 {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
+
+.foto {
+  align-items: center;
+  margin: 0 50px 112px 50px;
+}
+
+table, td, th {
+  margin: 0 50px 0 50px;
+
+}
+.container5 {
+  box-sizing: border-box;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.hero6 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  background: #333333;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message6 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.container6 {
+  box-sizing: border-box;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
