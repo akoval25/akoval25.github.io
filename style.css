@@ -2,17 +2,23 @@ body {
   margin: 0;
 }
 
-.ssilka{
+.ssilka {
   text-decoration: none;
-  color: #FFFFFF; 
-  transition: color .2s linear;
-  transition: font-size .3s linear;
- }
+  color: #ffffff;
+  transition: color 0.2s linear;
+  transition: font-size 0.3s linear;
+}
 
- .ssilka:hover{
-   color:#94f36f;
-   font-size:32px;
- }
+.ssilka:hover {
+  color: #94f36f;
+  font-size: 28px;
+}
+
+@media (max-width: 820px) {
+  .ssilka {
+    font-size: 12px;
+  }
+}
 
 .hero {
   padding-top: 5px;
@@ -47,7 +53,7 @@ body {
   padding-right: 55px;
 }
 
-.logo2{
+.logo2 {
   margin-left: 55px;
   margin-right: auto;
   margin-top: auto;
@@ -61,7 +67,7 @@ body {
   font-size: 24px;
   line-height: 50px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 h1 {
@@ -78,7 +84,7 @@ h1 {
   padding-top: 128px;
   padding-bottom: 128px;
   margin: 84px 0 0 0;
-  background-image: url('image1.png');
+  background-image: url("image1.png");
   background-size: cover;
   background-position: center center;
 }
@@ -90,14 +96,14 @@ h1 {
   font-size: 72px;
   line-height: 84px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero2 {
   padding-top: 50px;
   padding-bottom: 48px;
   margin: auto;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   background-size: cover;
   background-position: center center;
 }
@@ -115,7 +121,7 @@ h1 {
   padding-top: 128px;
   padding-bottom: 128px;
   margin: auto;
-  background-image: url('image.png');
+  background-image: url("image.png");
   background-size: cover;
   background-position: center center;
 }
@@ -127,14 +133,14 @@ h1 {
   font-size: 48px;
   line-height: 56px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero4 {
   padding-top: 50px;
   padding-bottom: 48px;
   margin: auto;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   background-size: cover;
   background-position: center center;
 }
@@ -162,13 +168,15 @@ figure {
   padding-top: 50px;
   padding-bottom: auto;
   margin: auto;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   background-size: cover;
   background-position: center center;
 }
 
 .hero__message5 {
-  position: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .figcaption1 {
@@ -196,10 +204,6 @@ figure {
   margin: 0 50px 112px 50px;
 }
 
-table, td, th {
-  margin: 0 50px 0 50px;
-
-}
 .container5 {
   box-sizing: border-box;
   max-width: 1110px;
@@ -225,7 +229,7 @@ table, td, th {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .container6 {
@@ -236,3 +240,4 @@ table, td, th {
   padding-left: 55px;
   padding-right: 55px;
 }
+
