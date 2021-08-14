@@ -15,7 +15,6 @@ body {
 
 @media (max-width: 820px) {
   .t1 {
-    display: flex-end;
     font-size: 12px;
   }
 }
