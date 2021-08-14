@@ -16,6 +16,7 @@ body {
 
 @media (max-width: 820px) {
   .ssilka {
+    overflow: hidden;
     font-size: 12px;
   }
 }
