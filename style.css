@@ -44,6 +44,13 @@ body {
   padding-right: 55px;
 }
 
+@media (max-width: 800px) {
+  .containerh {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
 .container {
   box-sizing: border-box;
   max-width: 1219px;
@@ -63,12 +70,14 @@ body {
 @media (max-width: 800px) {
   .logo2 {
     margin-left: 5px;
+    padding-bottom: auto;
   }
 }
 
 @media (max-width: 800px) {
   figure img {
     width: 60%;
+    margin-left: 5px;
   }
 }
 
@@ -94,8 +103,8 @@ h1 {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 58px;
-    line-height: 65px;
+    font-size: 55px;
+    line-height: 60px;
   }
 }
 
